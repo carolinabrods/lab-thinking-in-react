@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.red {
+  color: red;
+}
+
+.table {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 70%;
+}
+
+th {
+  background-color: gainsboro;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.search-bar {
+  height: 30px;
+  width: 70%;
+  margin-bottom: 10px;
+}

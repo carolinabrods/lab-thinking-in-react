@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import ProductsPage from './components/ProductsPage';
+
+/* Components Hierarchy:
+1. ProductsPage - state here
+1.1. SearchBar
+1.2. ProductTable
+1.2.1. ProductRow */
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProductsPage />
     </div>
   );
 }
